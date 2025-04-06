@@ -9,8 +9,8 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 
 # Load datasets
-fake_df = pd.read_csv('Fake.csv')
-true_df = pd.read_csv('True.csv')
+fake_df = pd.read_csv('data/Fake.csv')
+true_df = pd.read_csv('data/True.csv')
 
 # Add labels
 fake_df['label'] = 0
